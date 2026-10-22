@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 from rich import print
 llm = ChatOpenAI(model="mistralai/mistral-large-2512", base_url="https://api.xkiro.com/v1")
 
+
 tavily = TavilyClient()
 
 @tool
