@@ -8,7 +8,7 @@ from langchain.tools import tool
 from tavily import TavilyClient
 from bs4 import BeautifulSoup
 from rich import print
-llm = ChatOpenAI(model="mistralai/mistral-large-4-0", base_url="https://api.xkiro.com/v1")
+llm = ChatOpenAI(model="mistralai/mistral-large-2512", base_url="https://api.xkiro.com/v1")
 
 tavily = TavilyClient()
 
